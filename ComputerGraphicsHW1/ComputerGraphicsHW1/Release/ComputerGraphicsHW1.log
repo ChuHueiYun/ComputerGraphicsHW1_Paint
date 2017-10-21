@@ -1,0 +1,41 @@
+﻿已經開始建置於 2017/10/3 下午 09:54:08。
+     1>節點 2 (Build 目標) 上的專案 "E:\電腦圖學\作業\ComputerGraphicsHW1\ComputerGraphicsHW1\ComputerGraphicsHW1.vcxproj"。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Paint.cpp
+         Paint.cpp
+     1>Paint.cpp(95): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Paint.cpp(115): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Paint.cpp(137): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Paint.cpp(146): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Paint.cpp(153): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Paint.cpp(154): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Paint.cpp(168): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Paint.cpp(169): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Paint.cpp(201): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Paint.cpp(202): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Paint.cpp(316): warning C4244: '=' : 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\電腦圖學\作業\ComputerGraphicsHW1\Release\ComputerGraphicsHW1.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\電腦圖學\作業\ComputerGraphicsHW1\Release\ComputerGraphicsHW1.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\電腦圖學\作業\ComputerGraphicsHW1\Release\ComputerGraphicsHW1.lib" /MACHINE:X86 /SAFESEH Release\Paint.obj
+     1>Paint.obj : error LNK2001: 無法解析的外部符號 __imp____glutCreateWindowWithExit@8
+     1>Paint.obj : error LNK2001: 無法解析的外部符號 __imp__glutAddMenuEntry@8
+     1>Paint.obj : error LNK2001: 無法解析的外部符號 __imp__glutLayerGet@4
+     1>Paint.obj : error LNK2001: 無法解析的外部符號 __imp____glutInitWithExit@12
+     1>Paint.obj : error LNK2001: 無法解析的外部符號 __imp__glutInitWindowPosition@8
+     1>Paint.obj : error LNK2001: 無法解析的外部符號 __imp__glutMotionFunc@4
+     1>Paint.obj : error LNK2001: 無法解析的外部符號 __imp__glutAddSubMenu@8
+     1>Paint.obj : error LNK2001: 無法解析的外部符號 __imp__glutReshapeFunc@4
+     1>Paint.obj : error LNK2001: 無法解析的外部符號 __imp__glutInitDisplayMode@4
+     1>Paint.obj : error LNK2001: 無法解析的外部符號 __imp__glutMouseFunc@4
+     1>Paint.obj : error LNK2001: 無法解析的外部符號 __imp__glutKeyboardFunc@4
+     1>Paint.obj : error LNK2001: 無法解析的外部符號 __imp__glutAttachMenu@4
+     1>Paint.obj : error LNK2001: 無法解析的外部符號 __imp__glutMainLoop@0
+     1>Paint.obj : error LNK2001: 無法解析的外部符號 __imp__glutInitWindowSize@8
+     1>Paint.obj : error LNK2001: 無法解析的外部符號 __imp__glutPostRedisplay@0
+     1>Paint.obj : error LNK2001: 無法解析的外部符號 __imp__glutDisplayFunc@4
+     1>Paint.obj : error LNK2001: 無法解析的外部符號 __imp____glutCreateMenuWithExit@8
+     1>E:\電腦圖學\作業\ComputerGraphicsHW1\Release\ComputerGraphicsHW1.exe : fatal error LNK1120: 17 個無法解析的外部符號
+     1>專案 "E:\電腦圖學\作業\ComputerGraphicsHW1\ComputerGraphicsHW1\ComputerGraphicsHW1.vcxproj" (Build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:00.44
